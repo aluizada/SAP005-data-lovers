@@ -10,8 +10,10 @@ As personas listadas abaixo e necessidades do usuário foram posteriormente vali
 
 ## Personas
 ![](/src/img/persona_1)
+(imagem persona 1)
 
 ![](/src/img/persona_2)
+(imagem persona 2)
 
 ## Histórias de usuário
 Com base nas informações coletadas, escrevemos as duas histórias de usuário listadas a baixo e a partir delas foram definidas as tarefas que seriam executadas:
@@ -22,9 +24,11 @@ Com base nas informações coletadas, escrevemos as duas histórias de usuário 
 
 Primeiro rascunhamos as ideias com lápis e papel.
 ![](/src/img/protótipo_baixa_fidelidade)
+(protótipo de baixa)
 
 Chegando a conclusão do que queríamos criamos um protótipo de alta fidelidade no Photoshop
 ![](/src/img/wireframe_data_1)
+(protótipo de alta)
  
 
 
