@@ -1,9 +1,11 @@
 import data from '../data/pokemon/pokemon.js';
 import { getType, getName, getEvolution } from './data.js';
 
+
 //Mostrar todos os pokémons//
 
 document.getElementById("tipo").addEventListener('click', (e) => x(e.target.value))
+
 document.getElementById("nome").addEventListener('click', (e) => x(e.target.value))
 document.getElementById("evolucao").addEventListener('click', evolution)
 
@@ -12,7 +14,7 @@ function todosPokemons(anyArray) {
     pokemonsDiv.className = "pokemonsDiv";
     pokemonsDiv.innerHTML = `
      ${anyArray.map((pokemon) => `
-     <div class="cards">
+     <div class="cards" id="pokemons-cards">
          <img src="${pokemon["img"]}" class="pokemon-img" id="img-poke" />
          <p>${pokemon["name"]}</p>
          <p>${pokemon["num"]}</p>
