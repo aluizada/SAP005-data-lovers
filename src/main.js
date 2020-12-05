@@ -1,6 +1,11 @@
 import data from '../data/pokemon/pokemon.js';
 import { getType, getName, getEvolution } from './data.js';
 
+
+//Mostrar todos os pokémons//
+
+document.getElementById("tipo").addEventListener('click', (e) => x(e.target.value))
+
 document.getElementById("nome").addEventListener('click', (e) => x(e.target.value))
 document.getElementById("evolucao").addEventListener('click', evolution)
 
@@ -47,8 +52,4 @@ function evolution() {
     let pokemonEvolution = getEvolution(data, name);
     renderPokemon(pokemonEvolution)
 
-}
-
-document.getElementById("tipo").onclick = ()  => {
-    console.log("passeieAqui")
 }
