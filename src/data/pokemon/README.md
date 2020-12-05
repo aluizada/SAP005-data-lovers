@@ -1,37 +1,24 @@
-# Pokémon
+Data Lovers - Pokémon
 
-Pokémon GO es una experiencia de juego internacional que cuenta con más de mil
-millones de descargas y ha sido nombrada "el mejor juego para móviles" por
-Game Developers Choice Awards y "la mejor aplicación del año" por TechCrunch
-(tomado de Google Play). Los usuarios del juego se convierten en "Maestros/
-entrenadores de Pokémon" y pueden:
+A página pode ser acessada em ___
 
-- **Descubrir el mundo Pokémon:** explorar y descubrir nuevos Pokémon allá
-  donde vayan.
-- **Atrapar** distintos Pokémon para completar su Pokédex.
-- **Pelear** contra Pokémon de otros entrenadores y conquistar un gimnasio.
-- **Competir** en épicos combates contra otros entrenadores.
-- **Hacer equipo** con otros entrenadores para atrapar poderosos Pokémon
-  durante las incursiones.
+Definição do produto
 
-## Hallazgos
+O site Pokélovers foi elaborado com base nos dados fornecidos sobre os pokémons buscando satisfazer as necessidades dos usuários quanto ao acesso a esses dados.
 
-Para entender mejor qué necesidades complementarias a la app tienen los
-usuarios, hicimos una rápida investigación (research) y estos son algunos
-de los hallazgos.
+As personas listadas abaixo e necessidades do usuário foram posteriormente validadas através de um formulário do google (linkar forms aqui)
 
-- Los Pokémon tienen características únicas que determinan las decisiones que
-  toma el usuario (tipo, debilidad, peso, multiplicador, etc.)
-- Un maestro Pokémon antes de salir a casar los Pokémon tienen que:
-  saber el top 10 de frecuencia de aparición de los Pokémon.
-- Los Pokémon tienen distintos tipos y debilidades de combate. Estas
-  características son importantes cuando un maestro Pokémon elige al Pokémon
-  más adecuado para su batalla. Hay veces que tiene que elegir a los que
-  tienen menos cantidad de debilidades y saber de que tipo son. Por ello, es
-  importante para un maestro Pokémon poder ordenarlos por estas 2
-  características.
-- Los Pokémon evolucionan y es importante para un
-  maestro Pokémon saber cuántas y cuáles son las evoluciones que tienen antes y
-  después.
-- Los Pokémon se alimentan de caramelos y un maestro Pokémon necesita saber
-  cuántos caramelos necesita un Pokémon para evolucionar.
+Personas
+(Inserir imagem do usuário 1)
+falar sobre ele e as necessidades
+Inserir imagem do usuário 2)
+falar sobre ela e as necessidades
+
+Histórias de usuário
+Com base nas informações coletadas, escrevemos as duas histórias de usuário listadas a baixo e a partir delas foram definidas as tarefas que seriam executadas:
+Eu como usuário preciso de um site onde posso ver todos os pokémons de todas as gerações para saber o que tem disponível e quais suas características.
+Eu como usuário preciso filtrar os pokémons por nome, número, tipo e evolução para escolher os que se adequem as minhas necessidades como jogadore.
+Protótipos
+(inserir imagem do protótipo de baixa fidelidade)
+Primeiro rascunhamos as ideias com lápis e papel.
+Chegando a conclusão do que queríamos criamos um protótipo de alta fidelidade no Photoshop
