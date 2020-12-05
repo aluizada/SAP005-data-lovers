@@ -1,33 +1,25 @@
-# Pokémon
+Data Lovers - Pokémon
 
-​Pokémon GO é uma experiência de jogo internacional que tem mais de um bilhão de
-downloads e foi nomeado "o melhor jogo para celular" pelo Game Developers Choice
-Awards e "a melhor aplicação do ano" pelo TechCrunch (extraído do Google Play).
-Os usuários do jogo se tornam "Mestres/ treinadores Pokémons" e podem:
+A página pode ser acessada em ___
 
-- **Descobrir o mundo Pokémon:** explorar e descobrir novos Pokémon onde quer
-  que estejam.
-- **Pegar** diferentes Pokémon para completar seu Pokédex.
-- **Lutar** contra Pokémon de outros treinadores e conquiste ginásios.
-- **Competir** em batalhas épicas contra outros treinadores.
-- **Juntar-se** a outros treinadores para capturar Pokémon poderosos durante os
-  ataques.
+Definição do produto
 
-## Constatações
+O site Pokélovers foi elaborado com base nos dados fornecidos sobre os pokémons buscando satisfazer as necessidades dos usuários quanto ao acesso a esses dados.
 
-​Para entender melhor as necessidades complementares dos usuários do aplicativo,
-fizemos uma investigação rápida (pesquisa) e estas são algumas das descobertas.
+As personas listadas abaixo e necessidades do usuário foram posteriormente validadas através de um formulário do google (linkar forms aqui)
 
-- Os Pokémons têm características únicas que determinam as decisões tomadas pelo
-  usuário (tipo, fraqueza, peso, multiplicador, etc.).
-- Um mestre Pokémon antes de sair para caçar os Pokémons tem que conhecer os 10
-  principais Pokémons que aparecem com mais frequência.
-- Os Pokémons têm diferentes tipos e fraquezas em combate. Estas características
-  são importantes na escolha do Pokémon mais adequado para sua batalha. Às
-  vezes, você tem que escolher aqueles com menos fraquezas e saber de que tipo
-  eles são. Portanto, é importante que um mestre de Pokémon seja capaz de
-  ordená-los por essas 2 características.
-- Os Pokémons evoluem e é importante para um mestre Pokémon saber quantas e
-  quais evoluções eles têm antes e depois.
-- Pokémon comem _candies_ e um mestre Pokémon precisa saber quantos _candies_ um
-  Pokémon precisa para evoluir.
+Personas
+(Inserir imagem do usuário 1)
+falar sobre ele e as necessidades
+Inserir imagem do usuário 2)
+falar sobre ela e as necessidades
+
+Histórias de usuário
+Com base nas informações coletadas, escrevemos as duas histórias de usuário listadas a baixo e a partir delas foram definidas as tarefas que seriam executadas:
+Eu como usuário preciso de um site onde posso ver todos os pokémons de todas as gerações para saber o que tem disponível e quais suas características.
+Eu como usuário preciso filtrar os pokémons por nome, número, tipo e evolução para escolher os que se adequem as minhas necessidades como jogadore.
+Protótipos
+(inserir imagem do protótipo de baixa fidelidade)
+Primeiro rascunhamos as ideias com lápis e papel.
+Chegando a conclusão do que queríamos criamos um protótipo de alta fidelidade no Photoshop
+(inserir a imagem do protótipo de alta fidelidade aqui)
