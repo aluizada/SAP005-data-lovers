@@ -1,37 +1,17 @@
-export function getType(sel, evento) {
-    let pokemonType = sel.filter(element => {
-        for (let i = 0; i < element.type.length; i++) {
-            if (element.type[i] === evento) {
-                return element
-            }
-        }
-    })
-    return pokemonType
-}
-
-
-
-export function getName(pokemons, event) {
-    let pokemon = pokemons.filter(element => {
-        return element.name.includes(event);
-
-    })
-    return pokemon
-
-}
-
-export function getEvolution(pokemons, name) {
-    let pokemon = pokemons.find(element => {
-        return element.name.includes(name);
-    })
-    let pokemon_evolutions = [];
-    pokemon.next_evolution.forEach(element => {
-        let evolution_name = element.name;
-        let pokemon_evolution = pokemons.find(element => {
-            return element.name.includes(evolution_name);
-        })
-        pokemon_evolutions.push(pokemon_evolution);
+export const searchPokemon = (typedString, pokemonName, pokemonData) => {
+    let filteredPokemons = pokemonData.filter(pokemon => {
+        let pokemonString = pokemon[pokemonName].toLowerCase();
+        let beginOfString = pokemonString.substr(0, typedString.lenght);
+        return (beginOfString.includes(typedString));
     });
-    return pokemon_evolutions;
+    return filteredPokemons;
+};
 
-}
+export const sortOrder = (byOrder, order, pokemonData) => {
+    const direction = (byOrder === "az" || byOrder === "cresc") ? 1 : -1;
+    return pokemonData.sort((start, end) => (end[order] < start[order] ? direction : -direction));
+};
+
+export const filterByType = (pokemonType, arrayType, pokemonData) => pokemonData.filter(pokemon => pokemon[arrayType].includes(pokemonType));
+
+export const porcentPokemon = (filterByType, pokemonData) => (filterByType / pokemonData) * 100;

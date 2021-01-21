@@ -6,30 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POKELOVERS</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <main>
-        <header>
-            <div class="elemento1">
-                <img src="img/pokémon_1.png" alt="elemento1" text-align: center;>
-            </div>
-
-            <nav>
-
-                <ul class="menu">
-                    <li> <button id="nome"> Nome</button></li>
-                    <li> <button id="tipo"> Tipo</button> </li>
-                    <li> <button id="evolucao"> Evolução</button></li>
+    <header>
+        <div class=" navbar ">
+            <div class=" menu ">
+                <a href=" index.html " class=" logo ">Pokelovers</a>
+                <ul class=" submenu ">
+                    <li class=" button-blue ">
+                        <button id=" buttonOrder " class=" sub-button-blue "></span>ORDEM</button>
+                        <ul class=" submenu-options-blue ">
+                            <li><button id=" buttonCresc " class=" sub-item-blue ">1 &gt; 151</button></li>
+                            <li><button id=" buttonDecre " class=" sub-item-blue ">151 &gt; 1</button></li>
+                            <li><button id=" buttonAZ " class=" sub-item-blue ">A &gt; Z</button></li>
+                            <li><button id=" buttonZA " class=" sub-item-blue ">Z &gt; A</button></li>
+                        </ul>
+                    </li>
+                    <li class=" button-yellow ">
+                        <button id=" buttonType " class=" sub-button-yellow "></span>TIPO</button>
+                        <ul class=" submenu-options-yellow ">
+                            <li>
+                                <ul class=" submenu-col1 ">
+                                    <li><button id=" buttonSteel " class=" sub-item-yellow ">Aço</button></li>
+                                    <li><button id=" buttonWater " class=" sub-item-yellow ">Água</button></li>
+                                    <li><button id=" buttonDragon " class=" sub-item-yellow ">Dragão</button></li>
+                                    <li><button id=" buttonEletric " class=" sub-item-yellow ">Elétrico</button></li>
+                                    <li><button id=" buttonFairy " class=" sub-item-yellow ">Fada</button></li>
+                                    <li><button id=" buttonGhost " class=" sub-item-yellow ">Fantasma</button></li>
+                                    <li><button id=" buttonFire " class=" sub-item-yellow ">Fogo</button></li>
+                                    <li><button id=" buttonIce " class=" sub-item-yellow ">Gelo</button></li>
+                                    <li><button id=" buttonBug " class=" sub-item-yellow ">Inseto</button></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class=" submenu-col2 ">
+                                    <li><button id=" buttonFighting " class=" sub-item-yellow ">Lutador</button></li>
+                                    <li><button id=" buttonNormal " class=" sub-item-yellow ">Normal</button></li>
+                                    <li><button id=" buttonDark " class=" sub-item-yellow ">Noturno</button></li>
+                                    <li><button id=" buttonRock " class=" sub-item-yellow ">Pedra</button></li>
+                                    <li><button id=" buttonGrass " class=" sub-item-yellow ">Planta</button></li>
+                                    <li><button id=" buttonPsychic " class=" sub-item-yellow ">Psíquico</button></li>
+                                    <li><button id=" buttonGround " class=" sub-item-yellow ">Terrestre</button></li>
+                                    <li><button id=" buttonPoison " class=" sub-item-yellow ">Venenoso</button></li>
+                                    <li><button id=" buttonFlying " class=" sub-item-yellow ">Voador</button></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id=" searchWrapper " class=" button-red ">
+                        <button id=" buttonSearch " class=" sub-button-red "></span>BUSCA</button>
+                        <ul class=" submenu-option-red ">
+                            <li>
+                                <input type=" text " name=" busca " id=" searchBar " placeholder=" Pesquise pelo nome " class=" sub-item-red " />
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
-            </nav>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src="./img/pokémon_1.png" alt="">
+            </div>
+        </div>
 
-            <div class="cards" id=pokemons-cards></div>
-
-
-    </main>
-    <script type="module" src="main.js"></script>
     </header>
+    <section id=" textTypes " class=" types ">
+    </section>
+
+    <main id=" root " class=" pokemon-list ">
+    </main>
+
+    <script src=" main.js " type=" module "></script>
 </body>
 
 </html>
